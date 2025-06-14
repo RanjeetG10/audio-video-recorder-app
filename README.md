@@ -13,6 +13,11 @@ A modern, user-friendly React-based application to record audio and video using 
 - Graceful handling of microphone/camera access permission errors.
 - Clean, responsive UI with modern toggle-style tabs.
 
+## Bonus Features
+-  **Clerk Authentication Integration** 
+– App shows login screen first and restricts usage until the user is authenticated.
+
+
 ## USED
 
 - **React** (Latest version via Vite)
@@ -20,6 +25,8 @@ A modern, user-friendly React-based application to record audio and video using 
 - **HTML5 Media APIs** (`MediaRecorder`, `getUserMedia`)
 - **localStorage** for managing past recordings
 - **CSS-in-JS** (inline styling only, no external CSS needed)
+- **Clerk** for authentication and secure access (login required)
+
 
 ## Steps to Run the Project
 
