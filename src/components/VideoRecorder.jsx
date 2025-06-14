@@ -29,7 +29,7 @@ export default function VideoRecorder() {
 
   const startRecording = async () => {
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: true });
       streamRef.current = stream;
       videoRef.current.srcObject = stream;
 
